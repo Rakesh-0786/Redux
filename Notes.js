@@ -1,6 +1,6 @@
 /*
 
-// Redux: Redux has mainly five functions:
+// Redux: Redux has mainly five functions (API):
 1.Compose
 2.createStore
 3.bindActionCreator
@@ -41,4 +41,6 @@ const composeFunction=compose(removeSpaces, repeatString,convertToUpper);
 // console.log(composeFunction) //this give a anonymous function
 
 console.log(composeFunction(input));
+
+2.CreateStore:- Creates a Redux store that holds the complete state tree of your app.There should only be a single store in your app.
 */
